@@ -216,7 +216,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://r2.quiyu.top/gi.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "QiuYu",
+	name: "QuiYu",
 	bio: "随心所欲",
 	links: [
 		{
