@@ -1,5 +1,5 @@
 ---
-
+// 此处保留你原有的代码（import、变量定义等）
 import fs from "fs";
 import path from "path";
 import { footerConfig, profileConfig } from "../config";
@@ -25,9 +25,8 @@ if (footerConfig.enable) {
 }
 ---
 
-<!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
+<!-- 此处保留你原有的HTML结构 -->
 <div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div>
-<!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm text-center">
         {customFooterHtml && (
@@ -39,7 +38,8 @@ if (footerConfig.enable) {
         Powered by
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://astro.build">Astro</a> &
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/matsuzaka-yuki/mizuki">Mizuki</a>&nbsp; Version <a class="transition link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/matsuzaka-yuki/mizuki">4.6<br>
-        
-
     </div>
 </div>
+
+<!-- 在这里插入统计脚本 -->
+<script defer src="http://47.239.30.54:3000/script.js" data-website-id="155b64eb-0080-4158-a870-654861bb4478"></script>
